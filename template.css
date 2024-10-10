@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: red;
+}
+
+.title h1 {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+.menus ul li {
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.menus ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.menus ul li a:hover {
+    color: black;
+}
+
+.menus ul li a:active {
+    color: yellowgreen;
+}
+.con {
+    background-color: yellow;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: yellow;
+}
+
+.left-content p {
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.left-content h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 0px;
+    font-size: 33px;  
+    width: 60%; 
+}
+
+.left-content button {
+    padding: 10px 18px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.right-content img {
+    width: 530px;
+    height: 480px;
+}
+
+.para {
+    margin: 50px 0px;
+    padding: 20px;
+}
+
+.para h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.para p {
+    font-size: 19px;
+    font-weight: 800;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.head {
+    padding: 15px 0px;
+    background-color: yellow;
+}
+
+.head h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+.sub-title {
+    margin: 20px 0px;
+}
+
+.sub-title h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 30px 0px;
+}
+
+.card {
+    background-color: yellow;
+}
+
+.image img {
+    width: 325px;
+    height: 250px;
+}
+
+.head-content {
+    padding: 10px;
+    width: 304px;
+}
+
+.head-content h1 {
+    margin: 10px 0px;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.head-content p {
+    /* color: chocolate;    */
+    line-height: 1.8;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 20px;
+    padding: 20px;
+}
+
+.image-cur img {
+    width: 300px;
+    height: 250px;
+}
+
+.three {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: yellow;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.one h1 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+.one p {
+    font-size: 20px;
+    font-weight: bold;
+    width: 500px;
+}
+
+.two button {
+    padding: 10px 18px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    border: none;
+}
+
+footer h2 {
+    font-size: 22px;color: chocolate;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 15px 0px;
+    font-weight: 600;
+
+}
+
+.hole-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.title-1 h1 {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+.contact {
+    margin-top: 40px;
+}
+
+.contact h1 {
+    color: chocolate;
+    font-size: 36px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 0px; 
+}
+
+.contact-details {
+    line-height: 1.7;
+}
+
+.contact-details a {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.contact-details i {
+    margin: 10px;
+    color: chocolate;
+}
+
+.list ul {
+    line-height: 2.0;
+}
+
+.list ul li {
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+.horizontal-line {
+    margin: 0% 10%;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+}
+
+.icons ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.icons ul li a {
+    text-decoration: none;
+    color: #d86919;
+}
+
+.icons ul li a i {
+    font-size: 30px;
+}
+
+.copyright {
+    color: white;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .hole-container {
+        flex-wrap: wrap;
+    } 
+
+    .title-1 h1 {
+        font-size: 25px;
+    }
+    .contact-details a {
+        font-size: 15px;
+    }
+
+    .one h1 {
+        font-size: 25px;
+    }
+    .one p {
+        width: auto;
+        margin-bottom: 10px;
+    }
+    .para h1 {
+        font-size: 24px;
+    }
+
+    .head h1 {
+        font-size: 23px;
+    }
+    .sub-title h2 {
+        font-size: 23px;
+    }
+
+    .right-content img {
+        width: 360px;
+        height: 380px;
+    }
+}
+
+@media (max-width: 320px) {
+    .right-content img{
+        width: 300px;
+        height: 320px;
+    }
+    .left-content h1 {
+        font-size: 24px;
+    }
+}
+

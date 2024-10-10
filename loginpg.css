@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(bgimage-content.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.background {
+    background: transparent;
+    width: 500px;
+    height: 340px;
+    text-align: center;
+    border: 1px solid aliceblue;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
+    padding: 30px 0px;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 15px  15px;
+}
+
+.input-text input {
+    border-radius: 25px;
+    border: 1px solid azure;
+    padding: 16px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 19.5px 0px 19.5px 0px;
+    color: #fff;
+    width: 60%;
+    background: transparent;
+}
+
+.input-text i {
+    position: absolute;
+    top: 34%;
+    left: 76%;
+    font-size: 20px;
+    transform: translate(-50%);
+    color: #fff;
+}
+
+.input-password input {
+    border-radius: 25px;
+    padding: 16px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    width: 60%;
+    background: transparent;
+    margin: 10px 0px;
+    border: 1px solid aliceblue;
+}
+
+.input-password i {
+    position: absolute;
+    left: 76%;
+    top: 55%;
+    transform: translate(-50%);
+    color: #fff;
+    font-size: 20px;
+}
+
+.Forget-password {
+    display: flex;
+    justify-content: space-around;  
+    margin: 14px 0px;
+
+}
+
+.Forget-password label {
+    color: #fff;      
+    font-size: 18px;
+}
+
+.Forget-password label input {
+    cursor: pointer;
+}
+
+.Forget-password a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 18px;
+}
+
+.Forget-password a:hover {
+    text-decoration: underline;
+}
+
+.btn button {
+    width: 65%;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 20px;
+    background: #fff;
+    outline: none;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 0px 0px 10px;
+}
+
+.Register-account p {
+    color: #fff;
+    font-size: 14.5;
+}
+
+.Register-account p a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none; 
+}
+
+.Register-account p a:hover {
+    text-decoration: underline;
+}
+
+
+
+
